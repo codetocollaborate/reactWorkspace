@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.myapp{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App {
+  text-align: center;
+  width: 780px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  background-color: rgb(5, 5, 5);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+.app__video {
+  display: flex;
+  align-items: center;
+}
+.app__canvas {
+  position: absolute;
+  top: 100px;
+}
+
+.likert-scale {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  background: white;
+  margin: 10px;
+}
+
+.emoji {
+  height: auto;
+  width: auto;
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.emoji-highlight {
+  background-color: rgb(17, 12, 12);
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.next-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.survey-note {
+  text-align: center;
+  color: #ffc8b6;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
